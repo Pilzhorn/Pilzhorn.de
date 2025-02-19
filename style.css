@@ -1,0 +1,43 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    display:flex;
+    font-size: 2rem;
+}
+.title{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+.linksContainer{
+    width: 75%;
+    display: flex;
+}
+.title img{
+    aspect-ratio: 1;
+    width: 50px;
+    border-radius: 25px;
+    margin: 15px;
+}
+.subpageLink{
+    flex: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:14px 16px;
+    width: 33%;
+    background-color: gray;
+    height: 100%;
+    
+    font-size: 2rem;
+}
+.subpageLink:hover{
+    background-color: lightgrey;
+}
+.subpage{
+    display: none;
+}
